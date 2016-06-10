@@ -1,0 +1,6 @@
+com\aartek\controller\loginController.class
+com\aartek\controller\RechargeController.class
+com\aartek\validator\RechargeValidator.class
+com\aartek\controller\TestInterceptor.class
+com\aartek\controller\RegistrationController.class
+com\aartek\validator\RegistrationValidator.class
