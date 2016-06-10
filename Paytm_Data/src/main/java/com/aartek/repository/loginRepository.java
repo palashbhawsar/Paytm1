@@ -16,7 +16,7 @@ public class loginRepository {
 
 		@SuppressWarnings("unchecked")
 		public List<Object> userSignIn(String emailId, String password) {
-			
+			System.out.println("hello")
 			logger.info("inside repo");
 				List<Object> login = null;
 			login=hibernateTemplate.find("from UserRegistration a1 where a1.email_id=? and a1.password=?",emailId ,password);
